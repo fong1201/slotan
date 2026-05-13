@@ -1,4 +1,11 @@
 .logo {
-    max-width: 500px;   /* Never wider than its container */
-    height: auto; 
+    max-width: 500px;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
